@@ -361,7 +361,9 @@ h1 {
   color: #60C1BD;
 }
 
-
+.menu-img {
+  margin-right: 50px;
+}
 
 .menu-bottom li {
   padding-right: 39px;
@@ -456,16 +458,34 @@ h1 {
     margin-right: 55px;
    }
 
-   .foot-col img {
+   .menu-img {
     display: none;
    }
 
    .foot-col {
     flex: auto;
-    width: inherit;
+    width: 568px;
    }
 
+   .foot-col:first-child {
+    width: 80%;
+
+   }
+
+    .foot-col:last-child {
+      width: 20%;
+    }
+
    .footer-container {
+    padding: 0 15px;
+   }
+
+   .menu-bottom {
     flex-wrap: wrap;
    }
+
+   .copy {
+    margin-left: 25px;
+   }
+
 }
